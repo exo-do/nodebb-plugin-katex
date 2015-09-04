@@ -48,6 +48,6 @@
 		}).remove();
 
 		// add the usd button to the composer when config caught from socket
-		$.when(deferred).then(addComposerButton);
+		//$.when(deferred).then(addComposerButton);
 	});
 })();
