@@ -88,17 +88,18 @@
 			},
 
 			registerFormatting: function (payload, callback) {
-				var formatting = ['usd'];
+				/*var formatting = ['eur'];
 
 				formatting.reverse();
 				formatting.forEach(function (format) {
 					payload.options.unshift({
-						name: format,
-						className: 'fa fa-' + format
+						//name: format,
+						//className: 'fa fa-' + format
 					});
 				});
-
+				*/
 				callback(null, payload);
+				
 			},
 
 			admin: {
